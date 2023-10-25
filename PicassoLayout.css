@@ -5,6 +5,14 @@
     background-color: blanchedalmond;
 }
 
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3; /* Adjust the z-index as needed to ensure it's on top */
+}
+
+
 .box1 {
     grid-column: 1 / span 2;
     background-color: red;
